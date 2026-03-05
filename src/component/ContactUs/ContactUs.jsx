@@ -23,19 +23,19 @@ import { Mail, Phone,MapPinned} from "lucide-react";export default function Cont
                 <input
                   type="text"
                   placeholder="الاسم الكامل"
-                  className="w-full p-3 sm:p-4 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-900 text-right transition-all duration-300"
+                  className="w-full p-3 sm:p-4 border rounded-xl focus:outline-none focus:ring-1 focus:ring-blue-800 text-right transition-all duration-300"
                 />
                 <input
                   type="email"
                   placeholder="البريد الإلكتروني"
-                  className="w-full p-3 sm:p-4 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-900 text-right transition-all duration-300"
+                  className="w-full p-3 sm:p-4 border rounded-xl focus:outline-none focus:ring-1 focus:ring-blue-900 text-right transition-all duration-300"
                 />
               </div>
 
               <textarea
                 rows="5"
                 placeholder="الرسالة"
-                className="w-full p-3 sm:p-4 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-900 text-right transition-all duration-300"
+                className="w-full p-3 sm:p-4 border rounded-xl focus:outline-none focus:ring-1 focus:ring-blue-900 text-right transition-all duration-300"
               ></textarea>
 
               <button

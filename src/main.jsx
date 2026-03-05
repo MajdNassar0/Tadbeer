@@ -6,11 +6,13 @@ import './index.css'
 import App from './App.jsx'
 import Hero from './component/Hero/Hero.jsx'
 import ContactSection from './component/ContactUs/ContactUs.jsx'
+import How from './component/How/How.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Hero />
     <ContactSection/>
+    <How/>
   </StrictMode>,
 )
